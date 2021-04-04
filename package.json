@@ -1,0 +1,14 @@
+{
+  "name": "wbdv-sp21-02-juanong-server-node",
+  "version": "1.0.0",
+  "description": "Node server for assignment 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Ong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
