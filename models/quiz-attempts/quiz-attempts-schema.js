@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const questionsSchema = require('../questions/questions-schema')
 
 const quizAttempts = mongoose.Schema({
-    _id: String,
+    //_id: String,
     score: Number,
     quiz: {type: String, ref: 'QuizzesModel'},
     answers: [questionsSchema]
